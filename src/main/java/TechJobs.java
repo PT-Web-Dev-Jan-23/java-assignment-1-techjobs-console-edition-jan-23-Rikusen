@@ -124,11 +124,11 @@ public class TechJobs {
             System.out.println("No Results");
         } else {
             for (HashMap<String, String> job : someJobs) {
-                System.out.println("\n*****");
+                System.out.println("*****");
                 for (Map.Entry<String, String> entry : job.entrySet()) {
                     System.out.println(entry.getKey() + ": " + entry.getValue());
                 }
-                System.out.println("*****");
+                System.out.println("*****\n");
             }
         }
     }
